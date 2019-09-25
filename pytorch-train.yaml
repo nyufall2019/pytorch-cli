@@ -18,17 +18,17 @@ training_data_reference:
   name: training_data_reference_name
   connection:
     endpoint_url: "s3.us-east.objectstorage.service.networklayer.com"
-    access_key_id: "c45f75a008ed43d39a43d498867f804a"
-    secret_access_key: "46af623fa163d1a258278651ade036995bace25270f55e53"
+    access_key_id: "<yourid>"
+    secret_access_key: "<yourkey>"
   source:
-    bucket: mnistinput
+    bucket: <input-bucket-name>
   type: s3
 training_results_reference:
   name: training_results_reference_name
   connection:
     endpoint_url: "s3.us-east.objectstorage.service.networklayer.com"
-    access_key_id: "71f8b1d506014947bb2b439c93344928"
-    secret_access_key: "e955c369027b6098e2a209d817d7020f54597875d300388e"
+    access_key_id: "<yourid>"
+    secret_access_key: "<yourkey>"
   target:
-    bucket: mnistout
+    bucket: <output-bucket-name>
   type: s3
